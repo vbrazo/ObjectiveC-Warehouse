@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import <FBSDKCoreKit/FBSDKCoreKit.h>
+#import <FBSDKLoginKit/FBSDKLoginKit.h>
 
 @interface ViewController ()
 
@@ -15,8 +17,14 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    FBSDKLoginButton *loginButton = [[FBSDKLoginButton alloc] init];
+    loginButton.center = self.view.center;
+    [self.view addSubview:loginButton];
+    loginButton.readPermissions = @[@"public_profile", @"email", @"user_friends"];
+    
 }
 
 - (void)didReceiveMemoryWarning {
