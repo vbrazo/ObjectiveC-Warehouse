@@ -14,9 +14,16 @@
 		ED628ED11D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED628ECF1D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodeld */; };
 		ED628ED31D3576BA00FE7F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED628ED21D3576BA00FE7F94 /* Assets.xcassets */; };
 		ED628ED61D3576BA00FE7F94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED628ED41D3576BA00FE7F94 /* LaunchScreen.storyboard */; };
+		ED628EE61D35E06300FE7F94 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED628EE31D35E06300FE7F94 /* Bolts.framework */; };
+		ED628EE71D35E06300FE7F94 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED628EE41D35E06300FE7F94 /* FBSDKCoreKit.framework */; };
+		ED628EE81D35E06300FE7F94 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED628EE51D35E06300FE7F94 /* FBSDKLoginKit.framework */; };
+		ED628EF31D3688CE00FE7F94 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628EF21D3688CE00FE7F94 /* CoreDataStack.m */; };
+		FE1B861AECD8C76C4E7596ED /* Pods_discount_ascii_warehouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDDF8ED7116B0EB2D98DCEC /* Pods_discount_ascii_warehouse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3DC7FAAE390EF1502E447AC8 /* Pods-discount_ascii_warehouse.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-discount_ascii_warehouse.release.xcconfig"; path = "Pods/Target Support Files/Pods-discount_ascii_warehouse/Pods-discount_ascii_warehouse.release.xcconfig"; sourceTree = "<group>"; };
+		7632A3E25057FDADE3AA3D8B /* Pods-discount_ascii_warehouse.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-discount_ascii_warehouse.debug.xcconfig"; path = "Pods/Target Support Files/Pods-discount_ascii_warehouse/Pods-discount_ascii_warehouse.debug.xcconfig"; sourceTree = "<group>"; };
 		ED628EC01D3576BA00FE7F94 /* discount_ascii_warehouse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = discount_ascii_warehouse.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED628EC41D3576BA00FE7F94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED628EC61D3576BA00FE7F94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,6 +35,12 @@
 		ED628ED21D3576BA00FE7F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED628ED51D3576BA00FE7F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED628ED71D3576BA00FE7F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED628EE31D35E06300FE7F94 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		ED628EE41D35E06300FE7F94 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		ED628EE51D35E06300FE7F94 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		ED628EF21D3688CE00FE7F94 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		ED628EF41D373FCC00FE7F94 /* CoreDataStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		EDDDF8ED7116B0EB2D98DCEC /* Pods_discount_ascii_warehouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_discount_ascii_warehouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,17 +48,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE1B861AECD8C76C4E7596ED /* Pods_discount_ascii_warehouse.framework in Frameworks */,
+				ED628EE71D35E06300FE7F94 /* FBSDKCoreKit.framework in Frameworks */,
+				ED628EE81D35E06300FE7F94 /* FBSDKLoginKit.framework in Frameworks */,
+				ED628EE61D35E06300FE7F94 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B83B1D735F4113D6F08469A1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EDDDF8ED7116B0EB2D98DCEC /* Pods_discount_ascii_warehouse.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB28A0DCBA55045408D14521 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7632A3E25057FDADE3AA3D8B /* Pods-discount_ascii_warehouse.debug.xcconfig */,
+				3DC7FAAE390EF1502E447AC8 /* Pods-discount_ascii_warehouse.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		ED628EB71D3576BA00FE7F94 = {
 			isa = PBXGroup;
 			children = (
 				ED628EC21D3576BA00FE7F94 /* discount_ascii_warehouse */,
 				ED628EC11D3576BA00FE7F94 /* Products */,
+				EB28A0DCBA55045408D14521 /* Pods */,
+				B83B1D735F4113D6F08469A1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,16 +96,11 @@
 		ED628EC21D3576BA00FE7F94 /* discount_ascii_warehouse */ = {
 			isa = PBXGroup;
 			children = (
-				ED628EC61D3576BA00FE7F94 /* AppDelegate.h */,
-				ED628EC71D3576BA00FE7F94 /* AppDelegate.m */,
-				ED628EC91D3576BA00FE7F94 /* ViewController.h */,
-				ED628ECA1D3576BA00FE7F94 /* ViewController.m */,
-				ED628ECC1D3576BA00FE7F94 /* Main.storyboard */,
-				ED628ED21D3576BA00FE7F94 /* Assets.xcassets */,
-				ED628ED41D3576BA00FE7F94 /* LaunchScreen.storyboard */,
-				ED628ED71D3576BA00FE7F94 /* Info.plist */,
-				ED628ECF1D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodeld */,
+				ED628EDD1D3577B700FE7F94 /* Application */,
+				ED628EDE1D3577C500FE7F94 /* MVC */,
 				ED628EC31D3576BA00FE7F94 /* Supporting Files */,
+				ED628EE21D35E05400FE7F94 /* Resources */,
+				ED628EE11D3577DF00FE7F94 /* Vendors */,
 			);
 			path = discount_ascii_warehouse;
 			sourceTree = "<group>";
@@ -82,6 +113,88 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		ED628EDD1D3577B700FE7F94 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				ED628EC61D3576BA00FE7F94 /* AppDelegate.h */,
+				ED628EC71D3576BA00FE7F94 /* AppDelegate.m */,
+				ED628ED41D3576BA00FE7F94 /* LaunchScreen.storyboard */,
+				ED628ECC1D3576BA00FE7F94 /* Main.storyboard */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		ED628EDE1D3577C500FE7F94 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				ED628EDF1D3577CA00FE7F94 /* Models */,
+				ED628ECF1D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodeld */,
+				ED628EE01D3577CF00FE7F94 /* View-Controllers */,
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		ED628EDF1D3577CA00FE7F94 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				ED628EE91D35EBCC00FE7F94 /* Classes */,
+				ED628EEA1D35EBE200FE7F94 /* CoreDataProperties */,
+				ED628EEB1D35EBE500FE7F94 /* Services */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		ED628EE01D3577CF00FE7F94 /* View-Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED628EC91D3576BA00FE7F94 /* ViewController.h */,
+				ED628ECA1D3576BA00FE7F94 /* ViewController.m */,
+			);
+			name = "View-Controllers";
+			sourceTree = "<group>";
+		};
+		ED628EE11D3577DF00FE7F94 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				ED628ED21D3576BA00FE7F94 /* Assets.xcassets */,
+				ED628ED71D3576BA00FE7F94 /* Info.plist */,
+			);
+			name = Vendors;
+			sourceTree = "<group>";
+		};
+		ED628EE21D35E05400FE7F94 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ED628EE31D35E06300FE7F94 /* Bolts.framework */,
+				ED628EE41D35E06300FE7F94 /* FBSDKCoreKit.framework */,
+				ED628EE51D35E06300FE7F94 /* FBSDKLoginKit.framework */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		ED628EE91D35EBCC00FE7F94 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		ED628EEA1D35EBE200FE7F94 /* CoreDataProperties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreDataProperties;
+			sourceTree = "<group>";
+		};
+		ED628EEB1D35EBE500FE7F94 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ED628EF41D373FCC00FE7F94 /* CoreDataStack.h */,
+				ED628EF21D3688CE00FE7F94 /* CoreDataStack.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +202,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED628EDA1D3576BA00FE7F94 /* Build configuration list for PBXNativeTarget "discount_ascii_warehouse" */;
 			buildPhases = (
+				39EF4FCB25ED33A444CDA617 /* [CP] Check Pods Manifest.lock */,
 				ED628EBC1D3576BA00FE7F94 /* Sources */,
 				ED628EBD1D3576BA00FE7F94 /* Frameworks */,
 				ED628EBE1D3576BA00FE7F94 /* Resources */,
+				F0BBADF4C38DBA93A10ACB52 /* [CP] Embed Pods Frameworks */,
+				D37316E671FF3B8C4155D0F4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -147,6 +263,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		39EF4FCB25ED33A444CDA617 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D37316E671FF3B8C4155D0F4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-discount_ascii_warehouse/Pods-discount_ascii_warehouse-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0BBADF4C38DBA93A10ACB52 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-discount_ascii_warehouse/Pods-discount_ascii_warehouse-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED628EBC1D3576BA00FE7F94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -154,6 +318,7 @@
 			files = (
 				ED628ED11D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodeld in Sources */,
 				ED628ECB1D3576BA00FE7F94 /* ViewController.m in Sources */,
+				ED628EF31D3688CE00FE7F94 /* CoreDataStack.m in Sources */,
 				ED628EC81D3576BA00FE7F94 /* AppDelegate.m in Sources */,
 				ED628EC51D3576BA00FE7F94 /* main.m in Sources */,
 			);
@@ -265,8 +430,13 @@
 		};
 		ED628EDB1D3576BA00FE7F94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7632A3E25057FDADE3AA3D8B /* Pods-discount_ascii_warehouse.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/discount_ascii_warehouse",
+				);
 				INFOPLIST_FILE = discount_ascii_warehouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "myProjects.discount-ascii-warehouse";
@@ -276,8 +446,13 @@
 		};
 		ED628EDC1D3576BA00FE7F94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DC7FAAE390EF1502E447AC8 /* Pods-discount_ascii_warehouse.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/discount_ascii_warehouse",
+				);
 				INFOPLIST_FILE = discount_ascii_warehouse/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "myProjects.discount-ascii-warehouse";
@@ -304,6 +479,7 @@
 				ED628EDC1D3576BA00FE7F94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
