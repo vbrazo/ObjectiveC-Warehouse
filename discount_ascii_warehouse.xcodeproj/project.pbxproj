@@ -17,6 +17,7 @@
 		ED628EE61D35E06300FE7F94 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED628EE31D35E06300FE7F94 /* Bolts.framework */; };
 		ED628EE71D35E06300FE7F94 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED628EE41D35E06300FE7F94 /* FBSDKCoreKit.framework */; };
 		ED628EE81D35E06300FE7F94 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED628EE51D35E06300FE7F94 /* FBSDKLoginKit.framework */; };
+		ED628EF31D3688CE00FE7F94 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628EF21D3688CE00FE7F94 /* CoreDataStack.m */; };
 		FE1B861AECD8C76C4E7596ED /* Pods_discount_ascii_warehouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDDF8ED7116B0EB2D98DCEC /* Pods_discount_ascii_warehouse.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,8 @@
 		ED628EE31D35E06300FE7F94 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
 		ED628EE41D35E06300FE7F94 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		ED628EE51D35E06300FE7F94 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		ED628EF21D3688CE00FE7F94 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
+		ED628EF41D373FCC00FE7F94 /* CoreDataStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
 		EDDDF8ED7116B0EB2D98DCEC /* Pods_discount_ascii_warehouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_discount_ascii_warehouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -125,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				ED628EDF1D3577CA00FE7F94 /* Models */,
+				ED628ECF1D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodeld */,
 				ED628EE01D3577CF00FE7F94 /* View-Controllers */,
 			);
 			name = MVC;
@@ -133,7 +137,9 @@
 		ED628EDF1D3577CA00FE7F94 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				ED628ECF1D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodeld */,
+				ED628EE91D35EBCC00FE7F94 /* Classes */,
+				ED628EEA1D35EBE200FE7F94 /* CoreDataProperties */,
+				ED628EEB1D35EBE500FE7F94 /* Services */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -164,6 +170,29 @@
 				ED628EE51D35E06300FE7F94 /* FBSDKLoginKit.framework */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		ED628EE91D35EBCC00FE7F94 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		ED628EEA1D35EBE200FE7F94 /* CoreDataProperties */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CoreDataProperties;
+			sourceTree = "<group>";
+		};
+		ED628EEB1D35EBE500FE7F94 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				ED628EF41D373FCC00FE7F94 /* CoreDataStack.h */,
+				ED628EF21D3688CE00FE7F94 /* CoreDataStack.m */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +318,7 @@
 			files = (
 				ED628ED11D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodeld in Sources */,
 				ED628ECB1D3576BA00FE7F94 /* ViewController.m in Sources */,
+				ED628EF31D3688CE00FE7F94 /* CoreDataStack.m in Sources */,
 				ED628EC81D3576BA00FE7F94 /* AppDelegate.m in Sources */,
 				ED628EC51D3576BA00FE7F94 /* main.m in Sources */,
 			);
