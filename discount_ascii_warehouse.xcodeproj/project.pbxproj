@@ -20,6 +20,7 @@
 		ED8B1EE61D385311000C5A69 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628ECA1D3576BA00FE7F94 /* LoginController.m */; };
 		ED8B1EE71D385311000C5A69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628EC41D3576BA00FE7F94 /* main.m */; };
 		EDE017CF1D385504009BE9D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628EF91D3757A900FE7F94 /* ViewController.m */; };
+		EDE017D11D391668009BE9D5 /* WarehouseService.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE017D01D391668009BE9D5 /* WarehouseService.m */; };
 		FE1B861AECD8C76C4E7596ED /* Pods_discount_ascii_warehouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDDF8ED7116B0EB2D98DCEC /* Pods_discount_ascii_warehouse.framework */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +47,8 @@
 		ED628EF91D3757A900FE7F94 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ED8B1EDD1D3851B3000C5A69 /* Warehouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Warehouse.h; sourceTree = "<group>"; };
 		EDDDF8ED7116B0EB2D98DCEC /* Pods_discount_ascii_warehouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_discount_ascii_warehouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDE017D01D391668009BE9D5 /* WarehouseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarehouseService.m; sourceTree = "<group>"; };
+		EDE017D21D391672009BE9D5 /* WarehouseService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarehouseService.h; sourceTree = "<group>"; };
 		EDFC0D3E1D384C2C0069B937 /* Warehouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warehouse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -193,6 +196,8 @@
 			children = (
 				ED628EF41D373FCC00FE7F94 /* CoreDataStack.h */,
 				ED628EF21D3688CE00FE7F94 /* CoreDataStack.m */,
+				EDE017D21D391672009BE9D5 /* WarehouseService.h */,
+				EDE017D01D391668009BE9D5 /* WarehouseService.m */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -319,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDE017CF1D385504009BE9D5 /* ViewController.m in Sources */,
+				EDE017D11D391668009BE9D5 /* WarehouseService.m in Sources */,
 				ED8B1EDF1D385311000C5A69 /* AppDelegate.m in Sources */,
 				ED8B1EE01D385311000C5A69 /* Warehouse.m in Sources */,
 				ED8B1EE31D385311000C5A69 /* CoreDataStack.m in Sources */,
