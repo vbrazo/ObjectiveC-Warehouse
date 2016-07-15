@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		ED628EC51D3576BA00FE7F94 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628EC41D3576BA00FE7F94 /* main.m */; };
-		ED628EC81D3576BA00FE7F94 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628EC71D3576BA00FE7F94 /* AppDelegate.m */; };
-		ED628ECB1D3576BA00FE7F94 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628ECA1D3576BA00FE7F94 /* ViewController.m */; };
 		ED628ECE1D3576BA00FE7F94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED628ECC1D3576BA00FE7F94 /* Main.storyboard */; };
 		ED628ED11D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED628ECF1D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodeld */; };
 		ED628ED31D3576BA00FE7F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED628ED21D3576BA00FE7F94 /* Assets.xcassets */; };
@@ -17,7 +14,12 @@
 		ED628EE61D35E06300FE7F94 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED628EE31D35E06300FE7F94 /* Bolts.framework */; };
 		ED628EE71D35E06300FE7F94 /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED628EE41D35E06300FE7F94 /* FBSDKCoreKit.framework */; };
 		ED628EE81D35E06300FE7F94 /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED628EE51D35E06300FE7F94 /* FBSDKLoginKit.framework */; };
-		ED628EF31D3688CE00FE7F94 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628EF21D3688CE00FE7F94 /* CoreDataStack.m */; };
+		ED8B1EDF1D385311000C5A69 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628EC71D3576BA00FE7F94 /* AppDelegate.m */; };
+		ED8B1EE01D385311000C5A69 /* Warehouse.m in Sources */ = {isa = PBXBuildFile; fileRef = EDFC0D3E1D384C2C0069B937 /* Warehouse.m */; };
+		ED8B1EE31D385311000C5A69 /* CoreDataStack.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628EF21D3688CE00FE7F94 /* CoreDataStack.m */; };
+		ED8B1EE61D385311000C5A69 /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628ECA1D3576BA00FE7F94 /* LoginController.m */; };
+		ED8B1EE71D385311000C5A69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628EC41D3576BA00FE7F94 /* main.m */; };
+		EDE017CF1D385504009BE9D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628EF91D3757A900FE7F94 /* ViewController.m */; };
 		FE1B861AECD8C76C4E7596ED /* Pods_discount_ascii_warehouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDDF8ED7116B0EB2D98DCEC /* Pods_discount_ascii_warehouse.framework */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +30,8 @@
 		ED628EC41D3576BA00FE7F94 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED628EC61D3576BA00FE7F94 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED628EC71D3576BA00FE7F94 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		ED628EC91D3576BA00FE7F94 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ED628ECA1D3576BA00FE7F94 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED628EC91D3576BA00FE7F94 /* LoginController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		ED628ECA1D3576BA00FE7F94 /* LoginController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
 		ED628ECD1D3576BA00FE7F94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED628ED01D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = discount_ascii_warehouse.xcdatamodel; sourceTree = "<group>"; };
 		ED628ED21D3576BA00FE7F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,7 +42,11 @@
 		ED628EE51D35E06300FE7F94 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		ED628EF21D3688CE00FE7F94 /* CoreDataStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataStack.m; sourceTree = "<group>"; };
 		ED628EF41D373FCC00FE7F94 /* CoreDataStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreDataStack.h; sourceTree = "<group>"; };
+		ED628EF81D3757A900FE7F94 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED628EF91D3757A900FE7F94 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED8B1EDD1D3851B3000C5A69 /* Warehouse.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Warehouse.h; sourceTree = "<group>"; };
 		EDDDF8ED7116B0EB2D98DCEC /* Pods_discount_ascii_warehouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_discount_ascii_warehouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EDFC0D3E1D384C2C0069B937 /* Warehouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warehouse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,7 +134,6 @@
 			isa = PBXGroup;
 			children = (
 				ED628EDF1D3577CA00FE7F94 /* Models */,
-				ED628ECF1D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodeld */,
 				ED628EE01D3577CF00FE7F94 /* View-Controllers */,
 			);
 			name = MVC;
@@ -138,8 +143,8 @@
 			isa = PBXGroup;
 			children = (
 				ED628EE91D35EBCC00FE7F94 /* Classes */,
-				ED628EEA1D35EBE200FE7F94 /* CoreDataProperties */,
 				ED628EEB1D35EBE500FE7F94 /* Services */,
+				ED628ECF1D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodeld */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -147,8 +152,10 @@
 		ED628EE01D3577CF00FE7F94 /* View-Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				ED628EC91D3576BA00FE7F94 /* ViewController.h */,
-				ED628ECA1D3576BA00FE7F94 /* ViewController.m */,
+				ED628EF81D3757A900FE7F94 /* ViewController.h */,
+				ED628EF91D3757A900FE7F94 /* ViewController.m */,
+				ED628EC91D3576BA00FE7F94 /* LoginController.h */,
+				ED628ECA1D3576BA00FE7F94 /* LoginController.m */,
 			);
 			name = "View-Controllers";
 			sourceTree = "<group>";
@@ -175,15 +182,10 @@
 		ED628EE91D35EBCC00FE7F94 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				ED8B1EDD1D3851B3000C5A69 /* Warehouse.h */,
+				EDFC0D3E1D384C2C0069B937 /* Warehouse.m */,
 			);
 			name = Classes;
-			sourceTree = "<group>";
-		};
-		ED628EEA1D35EBE200FE7F94 /* CoreDataProperties */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = CoreDataProperties;
 			sourceTree = "<group>";
 		};
 		ED628EEB1D35EBE500FE7F94 /* Services */ = {
@@ -316,11 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDE017CF1D385504009BE9D5 /* ViewController.m in Sources */,
+				ED8B1EDF1D385311000C5A69 /* AppDelegate.m in Sources */,
+				ED8B1EE01D385311000C5A69 /* Warehouse.m in Sources */,
+				ED8B1EE31D385311000C5A69 /* CoreDataStack.m in Sources */,
+				ED8B1EE61D385311000C5A69 /* LoginController.m in Sources */,
+				ED8B1EE71D385311000C5A69 /* main.m in Sources */,
 				ED628ED11D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodeld in Sources */,
-				ED628ECB1D3576BA00FE7F94 /* ViewController.m in Sources */,
-				ED628EF31D3688CE00FE7F94 /* CoreDataStack.m in Sources */,
-				ED628EC81D3576BA00FE7F94 /* AppDelegate.m in Sources */,
-				ED628EC51D3576BA00FE7F94 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

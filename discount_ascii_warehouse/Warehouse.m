@@ -6,4 +6,16 @@
 //  Copyright © 2016 Vitor Oliveira. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "Warehouse.h"
+
+@implementation Warehouse
+
+    @dynamic face;
+    @dynamic id;
+    @dynamic price;
+    @dynamic size;
+    @dynamic stock;
+    @dynamic type;
+    @dynamic uid;
+
+@end

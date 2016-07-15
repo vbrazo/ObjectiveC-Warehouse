@@ -6,6 +6,8 @@
 //  Copyright © 2016 Vitor Oliveira. All rights reserved.
 //
 
+#import <CoreData/CoreData.h>
+
 @interface CoreDataStack : NSObject 
 
     @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
@@ -14,5 +16,9 @@
 
     - (void)saveContext:(NSManagedObjectContext *) context;
     - (NSURL *)applicationDocumentsDirectory;
+
+    - (NSManagedObjectContext *)mainContext;
+    - (NSManagedObjectContext *)masterContext;
+    - (NSManagedObjectContext *)newPrivateQueueContext;
 
 @end

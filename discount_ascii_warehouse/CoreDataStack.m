@@ -6,13 +6,10 @@
 //  Copyright © 2016 Vitor Oliveira. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import <CoreData/CoreData.h>
 #import "CoreDataStack.h"
 
 @implementation CoreDataStack
 
-    #pragma mark - Core Data stack
     @synthesize managedObjectContext = _managedObjectContext;
     @synthesize managedObjectModel = _managedObjectModel;
     @synthesize persistentStoreCoordinator = _persistentStoreCoordinator;
