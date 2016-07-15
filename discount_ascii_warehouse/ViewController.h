@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WarehouseService.h"
 
 @interface ViewController : UIViewController
 

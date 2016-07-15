@@ -21,6 +21,7 @@
 		ED8B1EE71D385311000C5A69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628EC41D3576BA00FE7F94 /* main.m */; };
 		EDE017CF1D385504009BE9D5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED628EF91D3757A900FE7F94 /* ViewController.m */; };
 		EDE017D11D391668009BE9D5 /* WarehouseService.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE017D01D391668009BE9D5 /* WarehouseService.m */; };
+		EDE017D61D391E68009BE9D5 /* Global.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE017D51D391E68009BE9D5 /* Global.m */; };
 		FE1B861AECD8C76C4E7596ED /* Pods_discount_ascii_warehouse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDDDF8ED7116B0EB2D98DCEC /* Pods_discount_ascii_warehouse.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +50,8 @@
 		EDDDF8ED7116B0EB2D98DCEC /* Pods_discount_ascii_warehouse.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_discount_ascii_warehouse.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE017D01D391668009BE9D5 /* WarehouseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarehouseService.m; sourceTree = "<group>"; };
 		EDE017D21D391672009BE9D5 /* WarehouseService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WarehouseService.h; sourceTree = "<group>"; };
+		EDE017D41D391E5F009BE9D5 /* Global.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Global.h; sourceTree = "<group>"; };
+		EDE017D51D391E68009BE9D5 /* Global.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Global.m; sourceTree = "<group>"; };
 		EDFC0D3E1D384C2C0069B937 /* Warehouse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Warehouse.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,6 +139,7 @@
 		ED628EDE1D3577C500FE7F94 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				EDE017D31D391E4E009BE9D5 /* Helpers */,
 				ED628EDF1D3577CA00FE7F94 /* Models */,
 				ED628EE01D3577CF00FE7F94 /* View-Controllers */,
 			);
@@ -200,6 +204,15 @@
 				EDE017D01D391668009BE9D5 /* WarehouseService.m */,
 			);
 			name = Services;
+			sourceTree = "<group>";
+		};
+		EDE017D31D391E4E009BE9D5 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EDE017D41D391E5F009BE9D5 /* Global.h */,
+				EDE017D51D391E68009BE9D5 /* Global.m */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -329,6 +342,7 @@
 				ED8B1EE01D385311000C5A69 /* Warehouse.m in Sources */,
 				ED8B1EE31D385311000C5A69 /* CoreDataStack.m in Sources */,
 				ED8B1EE61D385311000C5A69 /* LoginController.m in Sources */,
+				EDE017D61D391E68009BE9D5 /* Global.m in Sources */,
 				ED8B1EE71D385311000C5A69 /* main.m in Sources */,
 				ED628ED11D3576BA00FE7F94 /* discount_ascii_warehouse.xcdatamodeld in Sources */,
 			);

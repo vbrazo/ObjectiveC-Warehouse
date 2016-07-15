@@ -11,11 +11,9 @@
 @implementation Warehouse
 
     @dynamic face;
-    @dynamic id;
     @dynamic price;
     @dynamic size;
     @dynamic stock;
     @dynamic type;
-    @dynamic uid;
-
+    
 @end

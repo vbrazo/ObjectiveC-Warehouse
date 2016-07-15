@@ -11,11 +11,9 @@
 @interface Warehouse : NSManagedObject
 
     @property (nonatomic, strong) NSString* face;
-    @property (nonatomic, strong) NSString* id;
-    @property (nonatomic) float_t* price;
-    @property (nonatomic) int32_t* size;
-    @property (nonatomic) int32_t* stock;
+    @property (nonatomic, strong) NSNumber* price;
+    @property (nonatomic, strong) NSNumber* size;
+    @property (nonatomic, strong) NSNumber* stock;
     @property (nonatomic, strong) NSString* type;
-    @property (nonatomic) int32_t* uid;
-
+    
 @end

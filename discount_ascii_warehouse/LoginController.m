@@ -6,15 +6,13 @@
 //  Copyright © 2016 Vitor Oliveira. All rights reserved.
 //
 
-#import <FBSDKCoreKit/FBSDKCoreKit.h>
-#import <FBSDKLoginKit/FBSDKLoginKit.h>
-#import "ViewController.h"
+#import "LoginController.h"
 
-@interface ViewController ()
+@interface LoginController ()
 
 @end
 
-@implementation ViewController
+@implementation LoginController
 
     - (void)viewDidLoad {
     
@@ -38,6 +36,7 @@
          startWithCompletionHandler:^(FBSDKGraphRequestConnection *connection, id result, NSError *error) {
              if (!error) {
                  NSLog(@"fetched user:%@", result);
+                 [self performSegueWithIdentifier: @"transGrid" sender: self];
              }
          }];
     }

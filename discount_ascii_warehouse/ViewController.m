@@ -10,9 +10,17 @@
 
 @interface ViewController ()
 
-   
+    @property (weak, nonatomic) IBOutlet UITextField *lblSearch;
+
 @end
 
 @implementation ViewController
+
+    -(void) viewDidLoad{
+        [super viewDidLoad];
+        WarehouseService *warehouse = [[WarehouseService alloc] init];
+        [warehouse reset];
+        [warehouse add];
+    }
 
 @end
